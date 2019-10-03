@@ -1,3 +1,5 @@
+#created by charu sehgal
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import os
@@ -7,7 +9,7 @@ from openpyxl import Workbook
 browser = webdriver.Chrome('/home/risi/Downloads/chromedriver')
 
 
-def opp():
+def opp():#creating a function 
     a = int(input(" 1.see your profile"
                   "2.search job oppourtunity"))
     if (a == 1):
